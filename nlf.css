@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #d4dbe8;
+  font-family: sans-serif;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  width: 35rem;
+  height: 40rem;
+  border-radius: 50px;
+  box-shadow: -11px -11px 25px rgba(255, 255, 255, .35),
+  11px 13px 25px rgba(165, 181, 208, .738227);
+}
+form{
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  top: 8rem;
+}
+.title{
+  position: relative;
+  background-color: #d4dbe8;
+  bottom: 2rem;
+  display: flex;
+  font-size: 50px;
+  font-weight: 600;
+  color: #007fff;
+  user-select: none;
+  text-shadow: 6px 6px 4px rgba(245, 245, 245, .241);
+}
+.form-input{
+  position: relative;
+  margin: 20px;
+  width: 25rem;
+  height: 4rem;
+  padding: 0 20px;
+  background: #d4dbe8;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #007fff;
+  box-shadow: 4px 4px 4px rgba(255, 255, 255, .179),
+  -4px -4px 4px rgb(211, 211, 211);
+}
+.form-input::-moz-placeholder{
+  color: #bcbcbc;
+}
+.form-input::placeholder{
+  color: #bcbcbc;
+}
+.form-input:focus{
+  box-shadow: -4px -4px 4px rgba(255, 255, 255, .179),
+  4px 4px 4px rgb(211, 211, 211);
+}
+button{
+  width: 150px;
+  height: 60px;
+  border: 0;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 30px;
+  margin: 2.5rem;
+  background: #d4dbe8;
+  color: #007fff;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px rgba(255, 255, 255, .248),
+  -4px -4px 4px rgb(211, 211, 211);
+}
+button:active{
+  transform: scale(.9);
+}
+.forgot-password{
+  font-size: 19px;
+  text-decoration: none;
+  color: #333;
+}
+.forgot-password:hover{
+  color: #007fff;
+}
